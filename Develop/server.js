@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 //get api db
 const db = require('./db/db.json')
 
@@ -14,11 +15,11 @@ app.get('/', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 //gets notes page
-app.get('/notes.html', (req,res) => {
+app.get('/notes', (req,res) => {
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 
 })
-//gets api info
+//gets api info from db.json
 app.get('/api/notes', (req,res) => res.json(db));
 
 app.listen(PORT, () =>
