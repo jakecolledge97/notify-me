@@ -1,6 +1,10 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "Just a test",
+        "text": "Go fuck a dumpling"
+    },
+    {
+        "title": "Active",
+        "text": "this note is active"
     }
 ]
