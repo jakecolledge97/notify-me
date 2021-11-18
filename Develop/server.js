@@ -1,8 +1,7 @@
 const express = require('express');
 const path = require('path');
 //get api db
-const db = require('./db/db.json')
-const api = require('./routes/notes')
+const api = require('./routes/index.js')
 
 const PORT = 3001;
 
