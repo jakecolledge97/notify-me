@@ -38,8 +38,8 @@ notes.post('/', (req, res) => {
     res.json(`New note successfully added!`)
 })
 
-notes.delete('/', (req, res) => {
-    console.log(req.params.id)
-})
+// notes.delete('/', (req, res) => {
+//     console.log(req.params.id)
+// })
 
 module.exports = notes;
