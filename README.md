@@ -62,12 +62,10 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -81,6 +79,7 @@
 ## About The Project
 
 ![Notify Me Screen Shot](/Assets/notify-me-screenshot.png)
+![Notify Me Screen Shot](/Assets/notify-me-notes-screenshot.png)
 
 This is a simple web application that allows the user to view notes added by other users, and also add their own not. It uses a simple UI and is very straight forward to use.
 
@@ -163,6 +162,7 @@ Project Link: [https://github.com/jakecolledge97/notify-me](https://github.com/j
 ## Acknowledgments
 
 * [Best READMEn template](https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md)
+* [University of Adelaide Coding Bootcamp](https://bootcamps.adelaide.edu.au/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
